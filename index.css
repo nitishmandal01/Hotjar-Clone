@@ -1,0 +1,35 @@
+*{
+    font-family: arial;
+}
+
+header{
+    position: sticky;
+    top: 0;
+   
+}
+.left img{
+    height: 30px;
+    width: 150px;
+}
+
+.container{
+    max-width: 90%;
+    margin: auto;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 12px;
+}
+
+.top{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+    height: 70px;
+    width: 100%;
+    font-size: 19px;
+    background-color: white;
+}
+
+body{
+    /* background-color: lightgray; */
+}
