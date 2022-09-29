@@ -30,6 +30,22 @@ nav ul li{
     background-color: white;
 }
 
-body{
-    /* background-color: lightgray; */
+.right>button{
+    
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.right>button:nth-child(1){
+    padding: 12px;
+    border: 1px solid #324fbe;
+    background-color: white;
+    color: #324fbe;
+    font-weight: bold;
+}
+.right>button:nth-child(2){
+    border: none;
+    background-color: #324fbe;
+    color: white;
+    padding: 15px;
 }
