@@ -5,60 +5,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="faq.css">
+  <link rel="stylesheet" href="try.css">
 </head>
 <body>
-  <section>
-    <h1 class="title">FAQ's</h1>
 
-    <div class="questions-container">
-        <div class="question">
-            <button>
-                <span>Find out what's hot and what's not</span>
-                <i class="fas fa-chevron-down d-arrow"></i>
-            </button>
-            <p>Heatmaps give you an at-a-glance overview of how people interact with a page. <br> See how far they scroll, what buttons they click, and what content gets ignored.</p>
-            <a href="#heatmaps"></a>
-          </div>
-
-        <div class="question">
-            <button>
-                <span>What should I learn after JavaScript / js?</span>
-                <i class="fas fa-chevron-down d-arrow"></i>
-            </button>
-            <p>I suggest taking a look at Typescript and learning some popular frontend framework (Angular, React, Vue). If you are interested in backend, take a look at Node. js.</p>
-        </div>
-
-        <div class="question">
-            <button>
-                <span>Can I get a job after learning JavaScript?</span>
-                <i class="fas fa-chevron-down d-arrow"></i>
-            </button>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi laboriosam ea odit voluptate culpa quas explicabo.</p>
-        </div>
-
-        <div class="question">
-            <button>
-                <span>How long will it take to learn JavaScript?</span>
-                <i class="fas fa-chevron-down d-arrow"></i>
-            </button>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus corporis pariatur a maiores minus tempore magni nam beatae dolores omnis.</p>
-        </div>
-    </div>
-</section>
 </body>
 
-<script>
-  const buttons = document.querySelectorAll('button');
 
-buttons.forEach( button =>{
-    button.addEventListener('click',()=>{
-        const faq = button.nextElementSibling;
-        const icon = button.children[1];
-
-        faq.classList.toggle('show');
-        icon.classList.toggle('rotate');
-    })
-} )
-</script>
 </html>

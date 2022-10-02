@@ -7,22 +7,14 @@ margin: 0;
 margin-bottom: 0;
 }
 
-#navbar{
-    width: 100%;
-    height: 80px;
-    border: 1px solid red;
-    background-color: blue;
-    position: sticky;
-    top: 0;
-    left: 0;
-    margin-bottom: 30px;
-}
+
 .first{
     /* border: 1px solid red; */
     width: 90%;
     height: 400px;
     display: flex;
     margin: auto;
+    margin-top: 50px;
     justify-content: space-between;
     padding-left: 10px;
     padding-right: 10px;
@@ -109,12 +101,12 @@ margin-bottom: 0;
 .second>h1{
     font-size: 28px;
     font-weight: 600;
+    margin-bottom: 20px;
 }
 .slider{
-    width: 100%;
-    height: 120px;
-    background-color: skyblue;
-    border: 1px solid red;
+    /* width: 100%; */
+    height: auto;
+    /* border: 1px solid red;  */
     margin-top: 20px;
 }
 
@@ -198,6 +190,7 @@ margin-bottom: 0;
 }
 .five>.slider{
     margin-bottom: 60px;
+    margin-top: 30px;
 }
 
 .five>button{
@@ -215,7 +208,7 @@ margin-bottom: 0;
     height: 350px;
     margin: auto;
     margin-top: 80px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: space-between;
     gap: 10px;
@@ -230,7 +223,7 @@ margin-bottom: 0;
    font-weight: 550;
 }
 .six>div{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     height: auto;
 }
 .six>div:nth-child(1){
@@ -240,8 +233,33 @@ margin-bottom: 0;
 }
 .six>div:nth-child(2){
     width: 60%;
+    display: flex;
+    justify-content: space-between;
+    
 }
 
+.six>div:nth-child(2)>div{
+    /* border:1px solid red; */
+    width:50%;
+}
+.review-img{
+    width: 40%;
+}
+
+.review{
+    padding: 30px;
+    padding-top: 120px;
+}
+.review img{
+
+    margin-bottom: 30px;
+}
+.review img+p{
+    margin-bottom:20px ;
+}
+.review h4{
+    margin-top: 30px;
+}
 
 .six>div>h1{
     font-size: 35px;
@@ -454,3 +472,5 @@ margin-bottom: 0;
     display:inline-block;
     padding-right: 18px;
   }
+
+
