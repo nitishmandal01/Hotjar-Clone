@@ -57,3 +57,103 @@
 .question button .d-arrow.rotate{
     transform: rotate(180deg);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* header page css */
+
+header{
+    position: sticky;
+    top: 120px;
+   width: 100%;
+}
+.left img{
+    height: 30px;
+    width: 150px;
+}
+
+.container{
+    /* width: 100%; */
+    margin: 0;
+    height: 60px;
+    /* border: 1px solid red; */
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    margin-bottom: 30px;
+}
+.container{
+    max-width: 100%;
+    padding-top:11px;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 12px;
+}
+
+nav{
+    max-width: 90%;
+    margin: auto;
+}
+
+.right>button{
+    
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+.right>button:nth-child(1){
+    padding: 12px;
+    border: 1px solid #324fbe;
+    background-color: white;
+    color: #324fbe;
+    font-weight: bold;
+    /* margin-right: -5px; */
+}
+.right>button:nth-child(2){
+    border: none;
+    background-color: #324fbe;
+    color: white;
+    padding: 12px 16px;
+    }
+
+.flex{
+    display: flex;
+}
+
+
+.item-centre{
+    align-items: center ;
+} 
+
+.justify-centre{
+    justify-content: center;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.mx-2{
+    margin-left: 12px;
+    margin-right: 12px;
+}
