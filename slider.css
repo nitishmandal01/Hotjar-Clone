@@ -5,10 +5,10 @@
 } */
 
 .slider{
-    /* height: 250px; */
+    height: auto;
     margin: auto;
     position: relative;
-    /* width: 90%; */
+    width: 90%;
     display: grid;
     place-items: center;
     overflow: hidden;
@@ -17,7 +17,7 @@
 
 .slide-track{
     display: flex;
-    width:calc(250px * 20);
+    width:calc(200px * 20);
     animation: scroll 30s linear infinite;
 }
 
@@ -35,16 +35,16 @@
 }
 
 .slide{
-    /* height: 200px;
-    width: 250px; */
+    height: 200px;
+    width: auto;
     display: flex;
     align-items: center;
-    padding: 15px;
+    /* padding: 1px; */
     /* perspective: 100px;  */
 }
 
-img{
-    width:100%;
+.slider img{
+    width:90%;
 }
 img:hover{
     transform: translateZ(20px);
